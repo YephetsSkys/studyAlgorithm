@@ -20,15 +20,20 @@ public final class ListNodeUtil {
      * @param node
      */
     public static ListNode reverseLinkByNode(ListNode node) {
+        if (node == null || node.next == null) {
+            return node;
+        }
         //当前头结点
         ListNode curNode = node;
 
         //前一个结点
         ListNode preNode = null;
+        //下一个结点
+        ListNode nextNode = null;
 
         while (curNode != null) {
             //保留下一个结点
-            ListNode nextNode = curNode.next;
+            nextNode = curNode.next;
             //指针反转
             curNode.next = preNode;
             //前结点后移
