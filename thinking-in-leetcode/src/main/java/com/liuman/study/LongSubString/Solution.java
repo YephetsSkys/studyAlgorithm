@@ -3,6 +3,7 @@ package com.liuman.study.LongSubString;
 /**
  * 分析：https://www.iteye.com/blog/kainever7-2219238
  * https://www.bilibili.com/video/av10327259?from=search&seid=13472319614821732280
+ * https://zhidao.baidu.com/question/358597454.html
  * @Author: liuman
  * @Date: 2020-03-23 10:04
  */
