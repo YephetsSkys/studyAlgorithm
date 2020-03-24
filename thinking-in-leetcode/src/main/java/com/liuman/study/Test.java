@@ -8,7 +8,7 @@ package com.liuman.study;
 public class Test {
 
     public static void main(String[] args) {
-        int a = 9;
+        int a = 12;
         //获得商
         int result = a / 10;
         //取模数(余数)
@@ -16,5 +16,8 @@ public class Test {
 
         System.out.println("result:" + result);
         System.out.println("modResult:" + modResult);
+
+
+
     }
 }
