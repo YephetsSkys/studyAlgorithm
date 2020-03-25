@@ -24,7 +24,8 @@ public class Solution2 {
             //如果包含该字符,说明该index下出现重复的数字了
             char temp = s.charAt(i);
             if (cache.containsKey(temp)) {
-                //开始计算获得上次字符出现的长度
+                //当出现重复字符的时候，就要通过这个巧妙的公式向前移动一位。
+                //从而可以获得一个新的子字符串
                 j = Math.max(cache.get(temp)+1,j);
             }
 
