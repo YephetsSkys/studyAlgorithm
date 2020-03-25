@@ -3,6 +3,7 @@ package com.liuman.study.ValidParentheses;
 import java.util.Stack;
 
 /**
+ * https://www.bilibili.com/video/BV1Q7411Y7cA?from=search&seid=18156074736899564010
  * Valid Parentheses
  * 有效字符串需满足：
  *
