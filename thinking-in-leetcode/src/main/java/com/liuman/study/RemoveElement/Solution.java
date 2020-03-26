@@ -21,6 +21,8 @@ package com.liuman.study.RemoveElement;
  * 题目要求不使用额外的空间，移除所有数值等于val的元素，返回新数组的长度，于是想到使用替换的方法。
  * 将数组中数值等于val的元素与数组最后一个元素互换，再将最后一个元素删除。这样就完成了一个删除数值等于val元素的操作
  *
+ * https://www.bilibili.com/video/BV167411a7eJ?from=search&seid=13139672875463751415
+ *
  * @Author: liuman
  * @Date: 2020-03-26 17:31
  */
